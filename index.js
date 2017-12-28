@@ -12,7 +12,7 @@ const table = parse(input, {columns: true});
 
 function selectAccount(record){
   if (record.Indienwijze === 'Vecozo') {
-    record.Account = 'Zorgverzekeraars'
+    record.Account = 'Verzekeraars'
   } else {
     record.Account = 'Zelfbetalers'
   }
