@@ -32,7 +32,7 @@ function formatNumber(record) {
 
 function formatRecord(record) {
   return `${record.Datum} (#${record.Nummer}) ${record.Debiteur}
-    Assets:Receivable:${record.Account}    ${record.Bedrag}
+    Assets:Receivable:${record.Account}    EUR ${record.Bedrag}
     Income:Behandeling:${record.Account}`
 
 }
